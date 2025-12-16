@@ -3,9 +3,14 @@
 
 
 # TODO: create a basic class
-
+class Book:
+  def __init__(self, title):
+    self.title = title
 
 # TODO: create instances of the class
-
+book1 = Book("New Habits")
+book2 = Book("System Architecture")
 
 # TODO: print the class and property
+print(book1)
+print(book1.title)
